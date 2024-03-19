@@ -17,9 +17,9 @@ function onClick(evt) {
   console.log(evt.target.nodeName);
 }
 
-// todo 10 
+// todo 10
 //  !                  КОД ДОБАВЛЕНИЯ КНОПОК
- */
+
 const addBtn = document.querySelector('.js-add-btn');
 let labelCounter = 6;
 
