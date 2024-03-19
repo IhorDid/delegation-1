@@ -21,6 +21,8 @@ paletteContainer.insertAdjacentHTML('beforeend', cardsMarkup);
 
 paletteContainer.addEventListener('click', onPaletteContainerClick);
 
+// ! Рендерим разметку
+
 function createColorCardsMarkup(colors) {
   return colors
     .map(({ hex, rgb }) => {
@@ -41,7 +43,7 @@ function createColorCardsMarkup(colors) {
     })
     .join('');
 }
-
+// !СОбытие клика на карточку
 function onPaletteContainerClick(evt) {
   const isColorSwatchEl = evt.target.classList.contains('color-swatch');
 

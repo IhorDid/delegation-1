@@ -17,7 +17,7 @@ function onClick(evt) {
   console.log(evt.target.nodeName);
 }
 
-// todo 10
+// todo 11
 //  !                  КОД ДОБАВЛЕНИЯ КНОПОК
 
 const addBtn = document.querySelector('.js-add-btn');
